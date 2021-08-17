@@ -1,0 +1,13 @@
+cd ~/installations/kafka/
+tar -xvf kafka_2.13-2.8.0.tgz 
+rm kafka_2.13-2.8.0.tgz 
+cd kafka_2.13-2.8.0/
+pwd
+vi ~/.bashrc 
+source ~/.bashrc 
+kafka-topics.sh 
+mkdir data/zookeeper -p
+cd data/zookeeper/
+pwd
+cd ../..
+vi config/zookeeper.properties 
